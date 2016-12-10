@@ -1,8 +1,8 @@
-# NAME:     discourse/discourse_test
+# NAME:     adab1ts/discourse_test
 # VERSION:  1.3.10
-FROM discourse/discourse:1.3.10
+FROM adab1ts/discourse:1.3.10
 
-MAINTAINER Sam Saffron "https://twitter.com/samsaffron"
+MAINTAINER Carles Muiños "carles@adabits.org"
 
 RUN gem update bundler &&\
       cd /var/www/discourse &&\
